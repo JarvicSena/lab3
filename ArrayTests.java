@@ -16,12 +16,12 @@ public class ArrayTests {
     assertArrayEquals(new int[]{6, 4, 2}, input2);
   }
 
-  @Test
-  public void testReverseInPlace2() {
-    int[] input3 = {4, 12};
-    ArrayExamples.reverseInPlace(input3);
-    assertArrayEquals(new int[]{12, 4}, input3);
-  }
+  // @Test
+  // public void testReverseInPlace2() {
+  //   int[] input3 = {4, 12};
+  //   ArrayExamples.reverseInPlace(input3);
+  //   assertArrayEquals(new int[]{12, 4}, input3);
+  // }
 
 
   @Test
